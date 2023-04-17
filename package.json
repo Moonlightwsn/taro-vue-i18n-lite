@@ -22,6 +22,22 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Moonlightwsn/taro-vue-i18n-lite.git"
+  },
+  "bugs": "https://github.com/Moonlightwsn/taro-vue-i18n-lite/issues",
+  "author": "MoMo",
+  "license": "MIT",
+  "keywords": [
+    "taro",
+    "vue",
+    "vue3",
+    "i18n",
+    "weapp",
+    "miniprogram",
+    "frontend"
+  ],
   "dependencies": {
     "vue": "^3.2.47"
   },
