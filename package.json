@@ -1,6 +1,5 @@
 {
   "name": "taro-vue-i18n-lite",
-  "private": true,
   "version": "0.1.0",
   "type": "module",
   "files": [
