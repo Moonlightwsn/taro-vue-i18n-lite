@@ -115,7 +115,9 @@ export default {
         }
       }
       const text = templateHandler([...tokens], ...(vars || []))(params)
-      return text || defaultMessage || key || ""
+      // 允许设置空字符串，并返回
+      if (typeof text === "string") return text
+      return defaultMessage || key || ""
     }
 
     const changeLocale = (nextLocale: Locale) => {
